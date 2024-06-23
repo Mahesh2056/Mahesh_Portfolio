@@ -5,6 +5,7 @@ import Education from "./pages/Educations/Education";
 import Projects from "./pages/Projects/Projects";
 import Techstack from "./pages/Techstack/Techstack";
 import WorkExp from "./pages/workExp/WorkExp";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
           Made With ❤️ Mahesh Chaudhary &copy; 2024 
         </h4>
       </div>
+      <ScrollToTop 
+         smooth 
+         color="#f29f67"
+         style={{backgroundColor: "#1e1e2c", borderRadius: "80px" }}
+      />
     </>
   );
 }
