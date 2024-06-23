@@ -24,8 +24,8 @@ const Education = () => {
     iconStyle={{ background: "#138781", color: "#fff" }}
     icon={<MdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">B.TECH in Computer Science and Engineering</h3>
-    <h4 className="vertical-timeline-element-subtitle">Tula's Institute, Dehradun, India</h4>
+    <h4 className="vertical-timeline-element-title">B.TECH in Computer Science and Engineering</h4>
+    <h5 className="vertical-timeline-element-subtitle">Tula's Institute, Dehradun, India</h5>
     </VerticalTimelineElement>
     {/* Diploma Degree */}
     <VerticalTimelineElement
@@ -36,8 +36,8 @@ const Education = () => {
     iconStyle={{ background: "#138781", color: "#fff" }}
     icon={<MdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">Diploma in Information Technology</h3>
-    <h4 className="vertical-timeline-element-subtitle">CT Polytechnic College, Jalandhar, India</h4>
+    <h4 className="vertical-timeline-element-title">Diploma in Information Technology</h4>
+    <h5 className="vertical-timeline-element-subtitle">CT Polytechnic College, Jalandhar, India</h5>
     </VerticalTimelineElement>
     {/* School Degree */}
     <VerticalTimelineElement
@@ -48,8 +48,8 @@ const Education = () => {
     iconStyle={{ background: "#138781", color: "#fff" }}
     icon={<MdSchool />}
   >
-    <h3 className="vertical-timeline-element-title">High School (SLC Board)</h3>
-    <h4 className="vertical-timeline-element-subtitle">Panchodaya Higher Secondary School, Nepal</h4>
+    <h4 className="vertical-timeline-element-title">High School (SLC Board)</h4>
+    <h5 className="vertical-timeline-element-subtitle">Panchodaya Higher Secondary School, Nepal</h5>
     </VerticalTimelineElement>        
     </VerticalTimeline>
     </div>

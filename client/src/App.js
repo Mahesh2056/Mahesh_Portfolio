@@ -3,6 +3,7 @@ import About from "./pages/About/About";
 import Education from "./pages/Educations/Education";
 import Projects from "./pages/Projects/Projects";
 import Techstack from "./pages/Techstack/Techstack";
+import WorkExp from "./pages/workExp/WorkExp";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Education />
       <Techstack />
       <Projects />
+      <WorkExp />
       </div>
     </>
   );
