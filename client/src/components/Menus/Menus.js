@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menus.css";
-import {FcAbout, FcBiotech, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector, FcVoicePresentation} from "react-icons/fc";
+import {FcAbout, FcBiotech, FcBusinessContact, FcHome, FcPortraitMode, FcReadingEbook, FcVideoProjector} from "react-icons/fc";
 const Menus = ({ toggle }) => {
   return (
     <>
@@ -22,24 +22,20 @@ const Menus = ({ toggle }) => {
           About
         </div>
         <div className="nav-link">
-          <FcPortraitMode />
-          Work Experince
+          <FcReadingEbook />
+          Education
         </div>
         <div className="nav-link">
           <FcBiotech />
           Tech Stack
         </div>
         <div className="nav-link">
-          <FcReadingEbook />
-          Education
-        </div>
-        <div className="nav-link">
           <FcVideoProjector />
           Projects
         </div>
         <div className="nav-link">
-          <FcVoicePresentation />
-          Testimonial
+          <FcPortraitMode />
+          Work Experince
         </div>
         <div className="nav-link">
           <FcBusinessContact />
@@ -59,19 +55,16 @@ const Menus = ({ toggle }) => {
           <FcAbout title="About" />
         </div>
         <div className="nav-link">
-          <FcPortraitMode title="Work Experince" />
+          <FcReadingEbook title="Education" />
         </div>
         <div className="nav-link">
           <FcBiotech title="Tech Stack" />
         </div>
         <div className="nav-link">
-          <FcReadingEbook title="Education" />
-        </div>
-        <div className="nav-link">
           <FcVideoProjector title="Projects" />
         </div>
         <div className="nav-link">
-          <FcVoicePresentation title="Testimonial" />
+          <FcPortraitMode title="Work Experince" />
         </div>
         <div className="nav-link">
           <FcBusinessContact title="Contact" />
