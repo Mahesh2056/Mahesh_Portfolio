@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="card rounded">
                 <div className="card-image">
                     <span className="card-notify-badge">Full Stack</span>
-                    <img src="https://github.com/Mahesh2056/Blood-Bank-App/blob/main/client/public/assets/images/banner1.jpg?raw=true" 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVIMnpj33qK79BM-WbfFHXKarr1l4jkkU7Ng&s" 
                     alt="project1" 
                     />
                 </div>
