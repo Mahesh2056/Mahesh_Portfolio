@@ -1,5 +1,7 @@
 import React from "react";
 import "./Menus.css";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 import {
   FcAbout, 
@@ -15,11 +17,14 @@ const Menus = ({ toggle }) => {
     <>
     {toggle ? (
       <>
+      <Zoom>
       <div className="navbar-profile-pic">
         <img src="https://media.licdn.com/dms/image/D5603AQFnzgwmyym5pQ/profile-displayphoto-shrink_200_200/0/1715356651605?e=1724284800&v=beta&t=LFx47bJXEIJBYwK5Mbq_LtcnIxVaDvX30zJdzIF3ADQ"
          alt="profile pic"
         />
-     </div>
+      </div>
+      </Zoom>
+      <Fade left>
      <div className="nav-items">
        <div className="nav-item">
         <div className="nav-link">
@@ -114,6 +119,7 @@ const Menus = ({ toggle }) => {
         </div>
        </div>
      </div>
+     </Fade>
       </>
     ) : (
       <>
