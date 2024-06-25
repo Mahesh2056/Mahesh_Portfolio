@@ -27,7 +27,8 @@ const Contact = () => {
                 <div className="card2 d-flex card border-0 px-4 py-5">
                     <div className="row">
                         <div className="row">
-                        <h6>Contact With 
+                        <h6>
+                          Contact With 
                           <BsLinkedin color="blue" size={30} className="ms-2" />
                           <BsGithub color="black" size={30} className="ms-2" />
                           <BsFacebook color="blue" size={30} className="ms-2" />
