@@ -29,9 +29,15 @@ const Contact = () => {
                         <div className="row">
                         <h6>
                           Contact With 
+                          <a href="https://www.linkedin.com/in/mahesh-chaudhary-7b0962274" target="_blank" rel="noopener noreferrer">
                           <BsLinkedin color="blue" size={30} className="ms-2" />
+                          </a>
+                          <a href="https://github.com/Mahesh2056" target="_blank" rel="noopener noreferrer">
                           <BsGithub color="black" size={30} className="ms-2" />
+                          </a>
+                          <a href="https://www.facebook.com/profile.php?id=100010916221517" target="_blank" rel="noopener noreferrer">
                           <BsFacebook color="blue" size={30} className="ms-2" />
+                          </a>
                         </h6>
                         </div>
                     <div className="row px-3 mb-4">
