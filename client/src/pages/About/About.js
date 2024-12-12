@@ -8,7 +8,7 @@ const About = () => {
     <div className="about" id="about">
         <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
-                <img src="https://media.licdn.com/dms/image/D5603AQFnzgwmyym5pQ/profile-displayphoto-shrink_200_200/0/1715356651605?e=1724284800&v=beta&t=LFx47bJXEIJBYwK5Mbq_LtcnIxVaDvX30zJdzIF3ADQ"
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQFnzgwmyym5pQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715356651605?e=1739404800&v=beta&t=2O54HTk4R58u7Td3UNP1rxSYl3BLzumabbLRreZm6q8"
                  alt="profile_pic" 
                 />
             </div>
